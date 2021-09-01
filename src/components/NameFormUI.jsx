@@ -12,7 +12,7 @@ class NameFormUI extends Component {
     }
 
     componentDidMount(){
-        fetch('https://swapi.dev/api/people/1')
+        fetch('https://swapi.dev/api/people/12')
         .then(res => res.json())
         .then( res => {
             const splitName = res.name.split(' ');
