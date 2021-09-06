@@ -19,3 +19,9 @@ export const setReviews =(rating, review)=>{
         }
     }
 };
+
+export const getName = () =>{
+    return {
+        type: types.FETCH_NAME
+    }
+}

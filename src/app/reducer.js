@@ -1,4 +1,4 @@
-import {SET_RATINGS, SUBMIT_NAME, SET_REVIEW } from "../actions/constants"
+import {SET_RATINGS, SUBMIT_NAME, SET_REVIEW, FETCH_NAME_SUCCESS } from "../actions/constants"
 
 const initialState = {
     review:{
@@ -35,6 +35,14 @@ export const reducer = (state = initialState, action) => {
                 customerReview:{
                     rating: data.rating,
                     review: data.review
+                }
+            }
+        case FETCH_NAME_SUCCESS :
+            return {
+                ...state,
+                review:{
+                    firstName: data.firstName,
+                    lastName: data.lastName
                 }
             }
         default:

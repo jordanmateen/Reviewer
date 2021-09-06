@@ -11,8 +11,8 @@ app.use(express.json());
 
 app.post('/postReview', (req, res)=>{
     console.log(req.body)
-})
+});
 
 app.listen(PORT, ()=>{
     console.log(`HTTP port opened on ${PORT}....`)
-})
+});

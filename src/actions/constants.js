@@ -2,3 +2,7 @@ export const SUBMIT_NAME = 'SUBMIT_NAME';
 export const SUBMIT_REVIEW = 'SUBMIT_REVIEW'
 export const SET_REVIEW ='SET_REVIEW';
 export const SET_RATINGS ='SET_RATINGS';
+export const SET_NAME = 'SET_NAME';
+export const FETCH_NAME = 'FETCH_NAME';
+export const FETCH_NAME_SUCCESS = 'FETCH_NAME_SUCCESS';
+export const FETCH_NAME_FAILURE = 'FETCH_NAME_FAILURE';
