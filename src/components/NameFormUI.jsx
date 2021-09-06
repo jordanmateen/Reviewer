@@ -27,10 +27,6 @@ class NameFormUI extends Component {
         // })
     }
 
-    componentDidUpdate(){}
-
-    componentWillUnmount(){}
-
     updateFirstName(e){
        this.setState({
            firstName: e.target.value
