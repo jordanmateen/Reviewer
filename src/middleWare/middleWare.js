@@ -1,4 +1,3 @@
-import * as actions from '../actions/actionCreators'
 import { FETCH_NAME, FETCH_NAME_FAILURE, FETCH_NAME_SUCCESS } from '../actions/constants';
 
 const fetchName = (dispatch) => {
